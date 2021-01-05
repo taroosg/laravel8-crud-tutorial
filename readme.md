@@ -802,7 +802,7 @@ class CreateTodosTable extends Migration
 
 これでテーブルの設計は完了だが，MySQL のバージョンによってはエラーが発生するため，次の設定を行う．
 
-`/project01/app/Providers/AppServiceProvider.php`の内容を以下のように編集する．`string`型の最大長を 191 に変更する．
+`/laravel_todo/app/Providers/AppServiceProvider.php`の内容を以下のように編集する．`string`型の最大長を 191 に変更する．
 
 > 【解説】
 >
