@@ -1955,11 +1955,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Validator;
-use App\Models\Task;
+use App\Models\Todo;
 // ↓追加
 use Auth;
 
-class TasksController extends Controller
+class TodoController extends Controller
 {
   // ↓関数を作成
   public function __construct()
@@ -2146,13 +2146,12 @@ use Illuminate\Database\Eloquent\Model;
 // ↓1行追加
 use Auth;
 
-class Task extends Model
+class Todo extends Model
 {
   use HasFactory;
 
   protected $guarded = [
     'id',
-    // 'task',
     'created_at',
     'updated_at',
   ];
