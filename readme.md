@@ -1320,7 +1320,7 @@ todo の入力や編集など複数の画面で必要となるため，共通の
 - `show.blade.php`（todo 詳細画面）
 - `edit.blade.php`（todo 編集画面）
 
-ファイルを作成したら`create.php`を以下のように編集する．
+ファイルを作成したら`create.blade.php`を以下のように編集する．
 
 ```php
 <x-app-layout>
